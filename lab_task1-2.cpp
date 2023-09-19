@@ -5,11 +5,13 @@
 
 int main()
 {
+   //programm 1
     int a=1;
     double b=15.15;
     double result=0;
     result=(1.3*sin(a)+cos(b)) / (0.81*sin(b)+1.1*cos(a))*pow(M_E,log(b/a));
     std::cout<<"result="<<result<<" ";
+    //programm 2
     int a1=2;
     double b1=11.05;
     double result1=0;
